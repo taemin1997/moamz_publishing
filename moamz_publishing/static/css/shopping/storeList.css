@@ -198,6 +198,10 @@ button{
     font-size: 20px;
     font-weight: bold;
     background-color: white;
+    color: #d9d9d9;
+}
+#intro{
+    color: black;
 }
 .storeList-menu-detail-store-intro-short{
     display: flex;
@@ -268,6 +272,7 @@ button{
 .storeList-menu-detail-store-product-img > img{
     width: 85px;
     height: 78px;
+    margin-right: 8px;
 }
 .storeList-menu-detail-store-product-text{
     font-size: 12px;

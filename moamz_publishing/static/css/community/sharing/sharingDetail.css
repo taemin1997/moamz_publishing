@@ -1,5 +1,7 @@
-main {
+* {
     color: #6a6a6a;
+}
+main {
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -79,7 +81,6 @@ main {
 /* 게시물 내용 */
 .post-content-wrap {
     padding: 20px;
-    min-height: 500px;
 }
 /* 목록으로 이동 버튼 */
 .move-list-btn {

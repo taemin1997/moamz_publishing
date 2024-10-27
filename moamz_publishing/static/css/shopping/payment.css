@@ -1,6 +1,7 @@
 .container{
     width: 1000px;
     margin: 0 auto;
+    padding-bottom: 60px;
 }
 button{
     border: none;
@@ -120,6 +121,8 @@ button:hover{
     /* margin: 0 auto; */
 }
 .payment-payment-payment-top{
+    padding-left: 10px;
+    padding-top: 10px;
     font-size: 26px;
     margin-bottom: 30px;
 }
@@ -156,6 +159,11 @@ textarea{
     margin: 0 auto;
     padding-bottom: 15px;
     color: rgba(0, 0, 0, 0.4);
+}
+.payment-payment-payment-final-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .payment-store{
     width: 500px;

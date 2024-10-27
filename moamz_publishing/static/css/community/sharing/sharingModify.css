@@ -1,5 +1,7 @@
-main {
+* {
     color: #6a6a6a;
+}
+main {
     width: 700px;
     margin: 0 auto;
 }
@@ -43,7 +45,6 @@ main {
     align-items: center;
 }
 .title-wrap input {
-    padding: 0 5px;
     height: 28px;
     flex-grow: 1;
     border: 1px solid #ddd;

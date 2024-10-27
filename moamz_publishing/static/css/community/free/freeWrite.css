@@ -1,5 +1,7 @@
-main {
+* {
     color: #6a6a6a;
+}
+main {
     width: 700px;
     margin: 0 auto;
 }
@@ -41,7 +43,6 @@ main {
     flex-grow: 1;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 0 5px;
 }
 .title-wrap input:focus {
     border: 1px solid #A2B541;

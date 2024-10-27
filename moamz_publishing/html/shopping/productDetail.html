@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./../../static/css/shopping/productDetail.css">
 </head>
 <body>
+    <header id="header"></header>
     <div class="productDetail-container container">
         <div class="productDetail-wrap1">
             <div class="productDetail-product">
@@ -50,7 +51,7 @@
             <div class="productDetail-detail">
                 <div class="productDetail-detail-top">
                     <div class="productDetail-detail-top-name">
-                        [Dile] 아보카도
+                        [Dole] 아보카도
                     </div>
                     <div class="productDetail-detail-top-eco">
                         <span>
@@ -124,10 +125,18 @@
         </div>
         <div class="productDetail-wrap2">
             <div class="productDetail-buy">
-                <button type="button" id="cart">장바구니</button>
-                <button type="button" id="buy">바로 구매</button>
+                <button type="button" id="cart" onclick="location.href='cart.html'">장바구니</button>
+                <button type="button" id="buy" onclick="location.href='payment.html'">바로 구매</button>
             </div>
         </div>
     </div>
+    <footer id="footer"></footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(function() {
+        $("#header").load("./../main/fragment/header/userHeaderLogin.html");
+        $("#footer").load("./../main/fragment/footer/userFooter.html");
+    });     
+</script>
 </html>

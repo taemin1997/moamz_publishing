@@ -102,7 +102,7 @@ a{
 .userPurchaseHistory-list{
   width: 750px;
   height: 1000px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   background-color: #F7F7F7;
 }
 
@@ -128,14 +128,14 @@ a{
   /* border: 0.5px solid #6a6a6a; */
   border-radius: 10px;
   margin-top: 5px;
+  /* display: flex; */
   border: 1px solid black;
-  display: flex;
 }
 
 .purchase-date {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .purchase-info-clock {
@@ -171,11 +171,10 @@ a{
   margin-top: 10px;
   color: #6a6a6a;
   display: inline-block;
-  padding-left: 10px;
 }
 
 .seller-detail{
-  display: flex;
+  /* border: 1px solid black; */
 }
 
 #seller-detail-img,
@@ -184,22 +183,12 @@ a{
   margin-top: 10px;
 }
 
-.store-name{
-  margin-top:20px;
-  margin-left: 5px;
-}
-
 .seller-detail>span,
 .purchase-order-list>span{
   font-size: 17px;
   color: black;
   font-weight: bold;
   margin-bottom: 10px;
-}
-
-.seller-chat{
-  margin-left: 170px;
-  margin-top: 15px;
 }
 
 #seller-chat-btn{
@@ -225,8 +214,6 @@ a{
   padding-left: 10px;
   color: #6a6a6a;
   cursor: pointer;
-  margin-left: 22px;
-  margin-top: 8px;
 }
 
 .seller-detail-info{
@@ -240,7 +227,6 @@ a{
     font-weight: bold;
     color: #6a6a6a;
     font-size: 15px;
-    padding-right: 10px;
 }
 
 .purchase-order-box3{
@@ -249,15 +235,6 @@ a{
   border: 0.5px solid #6a6a6a;
   border-radius: 10px;
   margin-top: 5px;
-}  
-
-.purchase-order-list{
-  display: flex;
-}
-
-.purchase-img{
-  margin-top:20px;
-  margin-left: 5px;
 }
 
 .purchase-order-list-text{
@@ -270,12 +247,11 @@ a{
   font-weight: bold;
   color: #6a6a6a;
   font-size: 15px;
-  padding-right: 10px;
 }
 
 .purchase-order-box4{
   width: 700px;
-  height: 134px;
+  height: 152px;
   border: 0.5px solid #6a6a6a;
   border-radius: 10px;
   margin-top: 5px;
@@ -287,27 +263,8 @@ a{
 }
 
 .amount-label,
-.amount-item>span,
-.amount-label-point{
+.amount-item>span{
   font-weight: bold;
-  font-size: 15px;
-}
-
-.amount-item{
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.amount-label{
-  padding-right: 530px;
-}
-
-.amount-label-point{
-  padding-right: 500px;
-}
-
-.amount-minus{
-  padding-right: 50px;
 }
 
 #seller-chat-btn {
@@ -322,30 +279,12 @@ a{
 
 .total-amount{
   padding-top: 10px;
-  font-size: 15px;
 }
 
-.total-amount-text,
-.total-amount>span {
+.total-amount-text {
   color: #A2B541;
   font-weight: bold;
   margin-bottom: 5px;
-}
-
-.total-amount-text{
-  margin-top: 10px;
-  margin-left: 20px;
-  padding-right: 530px;
-}
-
-.amount-item2{
-  margin-top: 10px;
-  margin-left: 20px;
-  font-size: 15px;
-}
-
-.amount-label2{
-  padding-right: 530px;
 }
 
 /* 구매내역으로 이동 버튼 */

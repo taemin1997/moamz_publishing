@@ -50,3 +50,17 @@
   font-size: 25px;
   margin-bottom: 20px;
 }
+.storeDetailProduct-page{
+  /* border: 1px solid black; */
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px 0 0 20px;
+}
+.storeDetailProduct-page > a {
+  color: black;
+  margin-right: 5px;
+  font-size: 18px;
+}

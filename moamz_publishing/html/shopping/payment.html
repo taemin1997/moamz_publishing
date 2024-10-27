@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./../../static/css/shopping/payment.css">
 </head>
 <body>
+    <header id="header"></header>
   <div class="payment-container container">
     <div class="payment-wrap1">
       <span>
@@ -97,7 +98,7 @@
             <div class="payment-store-top">
                 <span>
                     업체 정보
-                    <button type="button">판매자와 1:1 채팅하기</button>
+                    <button type="button" onclick="location.href='./../chat/chatRoom.html'">판매자와 1:1 채팅하기</button>
                 </span>
             </div>
             <div class="payment-store-box">
@@ -146,5 +147,13 @@
         </div>
     </div>
   </div>
+  <footer id="footer"></footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(function() {
+        $("#header").load("./../main/fragment/header/userHeaderLogin.html");
+        $("#footer").load("./../main/fragment/footer/userFooter.html");
+    });     
+</script>
 </html>
